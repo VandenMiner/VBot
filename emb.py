@@ -147,3 +147,4 @@ async def upgrade( ctx ):
 		await ctx.send("Недостаточно монет")
 
 token = os.environ.get('BOT_TOKEN')
+ds.run(str(token))
